@@ -6,19 +6,19 @@ import { useState } from "react";
 const Links = () => {
   const links = [
     {
-      title: "homepage",
+      title: "Homepage",
       path: "/",
     },
     {
-      title: "about",
+      title: "About",
       path: "/about",
     },
     {
-      title: "contact",
+      title: "Contact",
       path: "/contact",
     },
     {
-      title: "blog",
+      title: "Blog",
       path: "/blog",
     },
   ];
