@@ -1,0 +1,43 @@
+/* globals.css will works on every single page */
+
+:root {
+  --bg: #0d0c22;
+  --bgSoft: #2d2b42;
+  --text: white;
+  --testSoft: #e5e5e5;
+  --btn: #3673fd;
+}
+/* can use this variables in any components or pages,because its the parent css */
+
+/* universal selector * */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  color: var(--text);
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  /* min-height: 100vh; */
+  background-color: var(--bg);
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  /* color will inherit from its parents */
+}
+.main-container {
+  /* background: purple; */
+  width: 100%;
+  max-width: 1536px;
+  min-height: 100vh;
+  padding-left: 30px;
+  padding-right: 50px;
+  margin: auto !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

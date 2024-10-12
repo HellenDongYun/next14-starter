@@ -1,0 +1,11 @@
+.container {
+  min-width: 100px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+.active {
+  background-color: var(--text);
+  color: var(--bg);
+}
