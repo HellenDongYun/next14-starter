@@ -20,6 +20,9 @@
   .menuButton {
     display: block;
     cursor: pointer;
+    position: relative;
+    width: 50px;
+    height: 50px;
   }
   .mobileLinks {
     position: absolute;
@@ -33,6 +36,6 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
   }
 }
